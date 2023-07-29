@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week1task</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-yellow-300 {
+            border: 2px solid yellow; /* Added border style */
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-purple-500 to-pink-500">
+    <div class="container mx-auto px-6 py-5 relative">
+        <nav class="flex items-center justify-between mb-5"> <!-- Added margin-bottom -->
+            <img src="logo.png" alt="Logo" class="w-40 h-auto cursor-pointer">
+            <ul class="flex text-center space-x-20"> <!-- Added spacing between navigation items -->
+                <li class="list-none inline-block"><a href="#" class="text-white">Home</a></li>
+                <li class="list-none inline-block"><a href="#" class="text-white">About us</a></li>
+                <li class="list-none inline-block"><a href="#" class="text-white">Features</a></li>
+                <li class="list-none inline-block"><a href="#" class="text-white">Contact</a></li>
+                <li class="list-none inline-block"><a href="#" class="text-white">Cart</a></li>
+            </ul>
+            <img src="cart.png" alt="Cart" class="w-10 h-auto cursor-pointer">
+        </nav>
+
+        <div class="text-white mt-20  mx-auto px-8">
+            <h1 class="text-6xl font-semibold leading-normal text-left ml-0"> <!-- Added ml-0 to remove left margin -->
+                Groceries<br>delivery in 15 minutes! <span class="font-light "></span>
+            </h1>
+            <p class="mt-4"> 
+                Grocify offers a wide range of products, including fresh fruits, vegetables,<br> meat, dairy products, baked goods, and non-perishable items.
+            </p>
+
+            <div class="mt-10">
+                <a href="#" class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent  hover:border hover:border-yellow-300 hover:text-white duration-300  ">Order Now</a>
+                <a href="#" class="text-white">Download App <span class="text-xl inline-block"> &#10515;</span></a>
+            </div>
+        </div>
+         <img src="grocery-image.png" class="w-full xl:w-1/2 xl:absolute top-10 bottom-0 right-0"> <!-- Corrected the position of the grocery image -->
+    </div>
+</body>
+</html>
